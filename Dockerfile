@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Esponi la porta su cui l'applicazione sarà in ascolto
-EXPOSE 3000
+EXPOSE 80
 
 # Comando da eseguire quando il container viene avviato
 CMD ["node", "server.js"] 
