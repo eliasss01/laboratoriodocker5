@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Comando da eseguire quando il container viene avviato
-CMD ["node", "server.js"]
+CMD ["node", "server.js"] 
